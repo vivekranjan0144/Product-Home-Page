@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , sans-serif;
+}
+
+::selection {
+    background-color: #ff8e72;
+}
+
+/*-------------------navar--------------------*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 3em ;
+}
+
+.nav-items {
+    display: flex;
+    font-size: 1.5em;
+    gap: 2.8em;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    color: #FE5E35;
+}
+
+nav>img ~ img {
+    width: 16em;
+    cursor: pointer;
+}
+/*---------------------------------------------*/
+/*---------------intro-section-----------------*/
+.intro-section {
+    height: 86vh;
+    display: flex;
+    padding: 0em 3em;
+}
+
+/*---------------Left-section-----------------*/
+.left-section {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;;
+    gap: 3.8em; 
+}
+
+.left-section>h3 {
+    margin-top: 1.8em;
+    font-size: 2.5em;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+}
+
+.left-section>h3 img{
+    width: 1.4em;
+}
+
+.left-section>h1 {
+    margin-top: -0.7em;
+    font-family: 'Fredoka One';
+    font-size: 4.8em;
+    font-weight: normal;
+}
+
+.sub-headlines {
+    font-size: 1.8em;
+    font-weight: thin;
+}
+
+.sub-headline {
+    margin-bottom: 0.5em;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.sub-headline img {
+    width: 1.4em;
+    margin-left: 3.5em;
+    border-radius: 50%;
+}
+
+.text {
+    margin-top: -2.8em;
+    font-size: 1em;
+    color: #c0c0c0;
+}
+
+.action-btns {
+    display: flex;
+    gap: 1.8em;
+} 
+
+.action-btn {
+    border: none;
+    margin-top: -1.5em;
+    background-color: #FE5E35;
+    color: #ffffff;
+    font-size: 1.3em;
+    padding: 0.5em 1em;
+    border-radius: 1.8em;
+    cursor: pointer;
+}
+/*---------------------------------------------*/
+/*---------------Right-section-----------------*/
+.right-section {
+    position: relative;
+}
+
+.discount {
+    position: absolute;
+    bottom: 40%;
+    left: 10%;
+    z-index: 1;
+    width: 8em;
+    filter: drop-shadow(3px 8px rgba(0, 0, 0, 0.5));
+}
+
+.discount-content {
+    position: absolute;
+    bottom: 45%;
+    left: 15%;
+    z-index: 2;
+    text-align: center;
+}
+
+.discount-content>h4 {
+    color: #ffffff;
+    font-size: 0.6em;
+}
+
+.discount-content>h1 {
+    font-family: 'Fredoka One', cursive;
+    color: #ffffff;
+    font-size: 2.6em;
+}
+
+.discount~img {
+    width: 31.5em;
+    height: 31.5em;
+    position: relative;
+    left: 12%;
+    top: 0%;
+}
+
+.dots {
+    display: flex;
+    gap: 2.4em;
+    margin-left: 14em;
+}
+
+.dot {
+    height: 1.8em;
+    width: 1.8em;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+.dot.yellow-dot {
+    background-color: #ffff00;
+}
+
+.dot.tomato-dot {
+    background-color: #ff6347;
+}
+
+.right-section>button {
+    position: relative;
+    top: 5%;
+    left: 45%;
+}
+/*--------------------------------------------*/
+/*--------------------------------------------*/
