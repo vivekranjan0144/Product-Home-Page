@@ -11,6 +11,7 @@ I will make it responsive ASAP.
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Demo
+[project-7.webm](https://user-images.githubusercontent.com/100980716/215362365-be9da157-055b-4cc9-85a3-8d860c090dc3.webm)
 
 ## What i have learnt By working on this project
 1. I learned more about Position Property of CSS.
@@ -22,7 +23,7 @@ This project took about 2-2.5 hours to complete.
 
 ## PROJECT LIVE LINK
 
-<a href="" target="_blank">![Live Link](https://img.shields.io/badge/Live-Link-green)</a>
+<a href="https://html-css-project07.netlify.app/" target="_blank">![Live Link](https://img.shields.io/badge/Live-Link-green)</a>
 
 ## SOCIAL MEDIA LINKS
 - [![facebook](https://img.shields.io/badge/Facebook-0A66C2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/vivekranjan0144/)
