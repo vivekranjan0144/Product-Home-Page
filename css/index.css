@@ -8,7 +8,10 @@
     background-color: #ff8e72;
 }
 
-/*-------------------navar--------------------*/
+/*---------------------------------------------*/
+/*-------------------navBar--------------------*/
+/*---------------------------------------------*/
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -31,15 +34,21 @@ nav>img ~ img {
     width: 16em;
     cursor: pointer;
 }
+
 /*---------------------------------------------*/
 /*---------------intro-section-----------------*/
+/*---------------------------------------------*/
+
 .intro-section {
     height: 86vh;
     display: flex;
     padding: 0em 3em;
 }
 
-/*---------------Left-section-----------------*/
+/*---------------------------------------------*/
+/*---------------Left-section------------------*/
+/*---------------------------------------------*/
+
 .left-section {
     width: 50vw;
     display: flex;
@@ -81,6 +90,7 @@ nav>img ~ img {
 }
 
 .sub-headline img {
+    background-color: #FE5E35;
     width: 1.4em;
     margin-left: 3.5em;
     border-radius: 50%;
@@ -107,8 +117,11 @@ nav>img ~ img {
     border-radius: 1.8em;
     cursor: pointer;
 }
+
 /*---------------------------------------------*/
 /*---------------Right-section-----------------*/
+/*---------------------------------------------*/
+
 .right-section {
     position: relative;
 }
@@ -175,5 +188,95 @@ nav>img ~ img {
     top: 5%;
     left: 45%;
 }
-/*--------------------------------------------*/
-/*--------------------------------------------*/
+
+/*---------------------------------------------*/
+/*-----------------Media-Query-----------------*/
+/*---------------------------------------------*/
+@media screen and (max-width: 970px) {
+    nav {
+        padding: 1em 1em ;
+    }
+    
+    .nav-items {
+        margin-right: -2em;
+        gap: 0em;
+        width: 46vw;
+        justify-content: space-between;
+    }
+    
+    .intro-section {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 0em 1em;
+    }
+
+    .left-section , .right-section {
+        align-items: center;
+        width: 100vw;
+        margin-bottom: 3em;
+    }
+
+    .left-section>h1 {
+        font-size: 9vw;
+    }
+
+    .action-btn {
+        font-size: 3.5vw;
+    }
+
+    .discount {
+        width: 20vw;
+    }
+
+    .discount-content>h4 {
+        font-size: 2.8vw;
+    }
+    
+    .discount-content>h1 {
+        font-size: 4vw;
+    }
+
+    .discount~img {
+        margin-left: 0;
+        display: block;
+        width: 70vw;
+        height: 70vw;
+    }
+
+    .dot {
+        height: 4vw;
+        width: 4vw;
+    }
+
+    .dots {
+        gap: 5vw;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .right-section>button {
+        position: static;
+        display: block;
+        margin: 1em auto;
+    }
+
+}
+
+@media screen and (max-width: 775px) {
+    nav {
+        flex-direction: column;
+        gap: 0.5em;
+        padding: 1em 0em;
+    }
+    
+    .nav-items {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    nav>img ~ img {
+        margin-right: -4em;
+    }
+}
+/*---------------------------------------------*/
