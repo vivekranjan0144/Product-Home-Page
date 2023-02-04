@@ -1,8 +1,6 @@
 # HTML-CSS PROJECT-7
 
-This is Product Home Page project made with technology HTML & CSS.
-I haven't made it responsive it only works in desktop/laptop screen.
-I will make it responsive ASAP.
+This is Product Home Page project made with technology HTML & CSS. I have made it responsive it works in both desktop screen and mobile screen.
 
 
 ## 🛠 Technologies Used
@@ -10,8 +8,13 @@ I will make it responsive ASAP.
 
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-## Demo
-[project-7.webm](https://user-images.githubusercontent.com/100980716/215362365-be9da157-055b-4cc9-85a3-8d860c090dc3.webm)
+## vDemo Video in Desktop Screen
+
+[Project-7.webm](https://user-images.githubusercontent.com/100980716/216743961-5d306d8b-0e74-41b6-a358-97ae465e55da.webm)
+
+## Demo Video in Mobile Screen
+
+https://user-images.githubusercontent.com/100980716/216744072-05d83f99-28c7-4a77-a975-4848a24827ad.mp4
 
 ## What i have learnt By working on this project
 1. I learned more about Position Property of CSS.
